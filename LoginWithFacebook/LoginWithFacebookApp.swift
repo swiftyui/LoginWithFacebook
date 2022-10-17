@@ -1,10 +1,3 @@
-//
-//  LoginWithFacebookApp.swift
-//  LoginWithFacebook
-//
-//  Created by Arno van Zyl on 2022/10/17.
-//
-
 import SwiftUI
 
 @main
