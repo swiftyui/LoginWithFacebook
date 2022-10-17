@@ -11,6 +11,7 @@
 		66F224D528FD493600E01BFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F224D428FD493600E01BFF /* ContentView.swift */; };
 		66F224D728FD493700E01BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F224D628FD493700E01BFF /* Assets.xcassets */; };
 		66F224DB28FD493700E01BFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F224DA28FD493700E01BFF /* Preview Assets.xcassets */; };
+		66F224E228FD49D900E01BFF /* Facebook.json in Resources */ = {isa = PBXBuildFile; fileRef = 66F224E128FD49D900E01BFF /* Facebook.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		66F224D628FD493700E01BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66F224D828FD493700E01BFF /* LoginWithFacebook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoginWithFacebook.entitlements; sourceTree = "<group>"; };
 		66F224DA28FD493700E01BFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66F224E128FD49D900E01BFF /* Facebook.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Facebook.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				66F224D228FD493600E01BFF /* LoginWithFacebookApp.swift */,
 				66F224D428FD493600E01BFF /* ContentView.swift */,
+				66F224E128FD49D900E01BFF /* Facebook.json */,
 				66F224D628FD493700E01BFF /* Assets.xcassets */,
 				66F224D828FD493700E01BFF /* LoginWithFacebook.entitlements */,
 				66F224D928FD493700E01BFF /* Preview Content */,
@@ -129,6 +132,7 @@
 			files = (
 				66F224DB28FD493700E01BFF /* Preview Assets.xcassets in Resources */,
 				66F224D728FD493700E01BFF /* Assets.xcassets in Resources */,
+				66F224E228FD49D900E01BFF /* Facebook.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
