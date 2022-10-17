@@ -13,6 +13,9 @@
 		66F224DB28FD493700E01BFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F224DA28FD493700E01BFF /* Preview Assets.xcassets */; };
 		66F224E228FD49D900E01BFF /* Facebook.json in Resources */ = {isa = PBXBuildFile; fileRef = 66F224E128FD49D900E01BFF /* Facebook.json */; };
 		66F224E428FD4A3400E01BFF /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F224E328FD4A3400E01BFF /* LottieView.swift */; };
+		66F224E628FD4F0A00E01BFF /* FacebookLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F224E528FD4F0A00E01BFF /* FacebookLoginButton.swift */; };
+		66F224E928FD52E100E01BFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F224E828FD52E100E01BFF /* AppDelegate.swift */; };
+		66F224EB28FD53B000E01BFF /* space.json in Resources */ = {isa = PBXBuildFile; fileRef = 66F224EA28FD53B000E01BFF /* space.json */; };
 		CDFA9B3CA488450032BA8D1D /* Pods_LoginWithFacebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE61AADC617A327E41D5A99 /* Pods_LoginWithFacebook.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +29,10 @@
 		66F224DA28FD493700E01BFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		66F224E128FD49D900E01BFF /* Facebook.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Facebook.json; sourceTree = "<group>"; };
 		66F224E328FD4A3400E01BFF /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		66F224E528FD4F0A00E01BFF /* FacebookLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginButton.swift; sourceTree = "<group>"; };
+		66F224E728FD517A00E01BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		66F224E828FD52E100E01BFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66F224EA28FD53B000E01BFF /* space.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = space.json; sourceTree = "<group>"; };
 		E348FA9FC456CA0FBEF8B1E8 /* Pods-LoginWithFacebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginWithFacebook.debug.xcconfig"; path = "Target Support Files/Pods-LoginWithFacebook/Pods-LoginWithFacebook.debug.xcconfig"; sourceTree = "<group>"; };
 		ECE61AADC617A327E41D5A99 /* Pods_LoginWithFacebook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginWithFacebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -48,7 +55,6 @@
 				E348FA9FC456CA0FBEF8B1E8 /* Pods-LoginWithFacebook.debug.xcconfig */,
 				2F10CD09F64C522654DD6A2A /* Pods-LoginWithFacebook.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,9 +79,13 @@
 		66F224D128FD493600E01BFF /* LoginWithFacebook */ = {
 			isa = PBXGroup;
 			children = (
+				66F224E728FD517A00E01BFF /* Info.plist */,
 				66F224E328FD4A3400E01BFF /* LottieView.swift */,
+				66F224E828FD52E100E01BFF /* AppDelegate.swift */,
+				66F224E528FD4F0A00E01BFF /* FacebookLoginButton.swift */,
 				66F224D228FD493600E01BFF /* LoginWithFacebookApp.swift */,
 				66F224D428FD493600E01BFF /* ContentView.swift */,
+				66F224EA28FD53B000E01BFF /* space.json */,
 				66F224E128FD49D900E01BFF /* Facebook.json */,
 				66F224D628FD493700E01BFF /* Assets.xcassets */,
 				66F224D828FD493700E01BFF /* LoginWithFacebook.entitlements */,
@@ -162,6 +172,7 @@
 			files = (
 				66F224DB28FD493700E01BFF /* Preview Assets.xcassets in Resources */,
 				66F224D728FD493700E01BFF /* Assets.xcassets in Resources */,
+				66F224EB28FD53B000E01BFF /* space.json in Resources */,
 				66F224E228FD49D900E01BFF /* Facebook.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +229,8 @@
 				66F224D528FD493600E01BFF /* ContentView.swift in Sources */,
 				66F224D328FD493600E01BFF /* LoginWithFacebookApp.swift in Sources */,
 				66F224E428FD4A3400E01BFF /* LottieView.swift in Sources */,
+				66F224E928FD52E100E01BFF /* AppDelegate.swift in Sources */,
+				66F224E628FD4F0A00E01BFF /* FacebookLoginButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +360,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginWithFacebook/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -386,6 +400,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoginWithFacebook/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
